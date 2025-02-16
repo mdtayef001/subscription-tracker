@@ -17,6 +17,7 @@ userRouter.post("/", (req, res) => {
 userRouter.put("/:id", (req, res) => {
   res.send({ title: "UPDATE a Users " });
 });
+
 userRouter.delete("/:id", (req, res) => {
   res.send({ title: "DELETE a Users " });
 });

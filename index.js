@@ -1,6 +1,6 @@
 import express from "express";
 import "dotenv/config";
-const port = process.env.PORT || 5600;
+const port = process.env.PORT || 5000;
 import userRouter from "./routes/user.routes.js";
 import authRouter from "./routes/auth.routes.js";
 import subscriptionRouter from "./routes/subscription.routes.js";
