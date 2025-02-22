@@ -1,9 +1,7 @@
 import mongoose from "mongoose";
 
 if (!process.env.DB_URL) {
-  throw new Error(
-    "Please define the DB_URL environment variable inside .env.local"
-  );
+  throw new Error("Please provide a valid MongoDB URL");
 }
 
 const connectDB = async () => {
